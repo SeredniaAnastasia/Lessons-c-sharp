@@ -1,0 +1,15 @@
+D:\C#\testconsole\bin\Debug\net6.0\testconsole.exe
+D:\C#\testconsole\bin\Debug\net6.0\testconsole.deps.json
+D:\C#\testconsole\bin\Debug\net6.0\testconsole.runtimeconfig.json
+D:\C#\testconsole\bin\Debug\net6.0\testconsole.dll
+D:\C#\testconsole\bin\Debug\net6.0\testconsole.pdb
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.csproj.AssemblyReference.cache
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.AssemblyInfoInputs.cache
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.AssemblyInfo.cs
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.csproj.CoreCompileInputs.cache
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.dll
+D:\C#\testconsole\obj\Debug\net6.0\refint\testconsole.dll
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.pdb
+D:\C#\testconsole\obj\Debug\net6.0\testconsole.genruntimeconfig.cache
+D:\C#\testconsole\obj\Debug\net6.0\ref\testconsole.dll
