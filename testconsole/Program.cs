@@ -2,17 +2,31 @@
 
 class TestClass
 {
-static void Main(string[] args)
-{
+    static void Main(string[] args)
+    {
 
-double z1=0, z2=0, n=0, m=0;
-        Console.WriteLine ("Input n  ");
-        n=Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine ("Input m  ");
-        m=Convert.ToInt32(Console.ReadLine());
-        z1=(n-1)*Math.Sqrt(n)-(m-1)*Math.Sqrt(m)/Math.Sqrt(Math.Pow(n,3)*m)+m*n+n*n-n;
-        z2=Math.Sqrt(n)-Math.Sqrt(m)/n;
-        Console.WriteLine ("z1= " + z1);
-        Console.WriteLine ("z2= " + z2);
+        double f = 0, a = 0, x = 0, c = 0, b = 0;
+        Console.WriteLine("Input a  ");
+        a = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Input b  ");
+        b = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Input x  ");
+        x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Input c  ");
+        c = Convert.ToDouble(Console.ReadLine());
+        if (x == 0 && b != 0)
+        {
+            f = a * (x + c) * (x + c) - b;
+        }
+        else if (x == 0 && b == 0)
+        {
+            f = (x - a) / (-c);
+        }
+        else
+        {
+            f = a + x / c;
+        }
+        Console.WriteLine("f= " + f);
+    }
 }
 

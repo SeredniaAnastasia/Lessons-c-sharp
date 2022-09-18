@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\testconsole\\testconsole.csproj": {}
+    "D:\\C_SHARP\\testconsole\\testconsole.csproj": {}
   },
   "projects": {
-    "D:\\C#\\testconsole\\testconsole.csproj": {
+    "D:\\C_SHARP\\testconsole\\testconsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\testconsole\\testconsole.csproj",
+        "projectUniqueName": "D:\\C_SHARP\\testconsole\\testconsole.csproj",
         "projectName": "testconsole",
-        "projectPath": "D:\\C#\\testconsole\\testconsole.csproj",
+        "projectPath": "D:\\C_SHARP\\testconsole\\testconsole.csproj",
         "packagesPath": "C:\\Users\\Anastasia\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\testconsole\\obj\\",
+        "outputPath": "D:\\C_SHARP\\testconsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anastasia\\AppData\\Roaming\\NuGet\\NuGet.Config"
