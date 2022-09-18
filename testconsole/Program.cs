@@ -4,14 +4,12 @@ class TestClass
 {
 static void Main(string[] args)
 {
-       int a1 = 0, a2 = 0, a3 = 0;
-        Console.WriteLine("Input first number");
-        a1 = Convert.ToInt32(Console.ReadLine());
-        a2 = a1 + 5;
-        a3 = a1 + 5;
-        Console.WriteLine(a1);
-        Console.WriteLine(a2);
-        Console.WriteLine(a3);
-}
+  int r=0; 
+            Console.WriteLine ("Input radius  ");
+         r=Convert.ToInt32(Console.ReadLine());
+         r=r+20;
+         double s=Math.PI*Math.Pow(r,2)-Math.PI*Math.Pow(20,2);
+        Console.WriteLine ("plocha  " + s);
 }
 
+}
