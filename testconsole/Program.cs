@@ -5,36 +5,28 @@ class TestClass
 {
     static void Main(string[] args)
     {
-        Console.WriteLine ("What is your name?");
-        string name =Console.ReadLine();
-        Console.WriteLine("Hello " +name);
+        int n=0, m=0;
+        Console.WriteLine("Enter the first two-digit number");
+         n=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the second two-digit number");
+         m=Convert.ToInt32(Console.ReadLine());
+        int n1=n/10%10;
+        int n2=n%10;
+        int m1=m/10%10;
+        int m2=m%10;
+        int nMin, mMax;
+        if(n1<n2){
+            nMin=n1;
+        }else{
+           nMin=n2; 
+        }
+          if(m1>m2){
+          mMax=m1;  
+        }else{
+          mMax=m2;
+        }
         
-        Console.WriteLine ("Are you male or female?");
-        string state =Console.ReadLine();
-        Console.WriteLine("I'm a man " );
-       
-        Console.WriteLine ("What is your education?");
-        string education = Console.ReadLine();
-        
-        if(education!="designer")
-        Console.WriteLine("is a useful profession, and I'm studying to be a designer");
-        else 
-        Console.WriteLine("Wondeful, I'm aslo a designer");
-      
-        Console.WriteLine ("Are you happy?");
-        string happy =Console.ReadLine();
-        Console.WriteLine ("Me too ");
-        
-        Console.WriteLine ("Do you like studying?");
-        string job =Console.ReadLine();
-        
-        Console.WriteLine ("What is your favorite book?");
-        string book =Console.ReadLine();
-        Console.WriteLine ("Great, I like Stephen King's books");
-        
-        Console.WriteLine ("Do you do sports?");
-        string sport =Console.ReadLine();
-        Console.WriteLine ("I like to run");
-        Console.WriteLine ("It was nice to meet you, goodbye");   
+        Console.Write ("suma= "+(nMin+mMax));
+
     }
 }
