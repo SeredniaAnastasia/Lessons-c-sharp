@@ -5,28 +5,16 @@ class TestClass
 {
     static void Main(string[] args)
     {
-        int n=0, m=0;
-        Console.WriteLine("Enter the first two-digit number");
-         n=Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter the second two-digit number");
-         m=Convert.ToInt32(Console.ReadLine());
-        int n1=n/10%10;
-        int n2=n%10;
-        int m1=m/10%10;
-        int m2=m%10;
-        int nMin, mMax;
-        if(n1<n2){
-            nMin=n1;
+         double y=0, x=0;
+        Console.WriteLine("Input x  ");
+        x = Convert.ToInt32(Console.ReadLine());
+        if(x<=0){
+            y=0;
+        }else if(x>0 && x<=1){
+            y=x*x-x;
         }else{
-           nMin=n2; 
+            y=x*x-Math.Sin(Math.PI*Math.Pow(x,2));
         }
-          if(m1>m2){
-          mMax=m1;  
-        }else{
-          mMax=m2;
-        }
-        
-        Console.Write ("suma= "+(nMin+mMax));
-
+        Console.WriteLine("y= " + y);
     }
 }
